@@ -47,7 +47,8 @@ Snowflake objects:
 
 ## End-to-end architecture
 
-![UrbanAssist 360 end-to-end architecture](docs/diagrams/architecture.png)
+<img width="1672" height="941" alt="architecture" src="https://github.com/user-attachments/assets/fa004259-6213-4a5e-af73-81318d672684" />
+
 
 The two event streams have different responsibilities:
 
@@ -197,7 +198,8 @@ Generated calendar rows
 
 ## Gold data model
 
-![UrbanAssist 360 Gold data model](docs/diagrams/data-model.png)
+<img width="1672" height="941" alt="data-model" src="https://github.com/user-attachments/assets/5adb4023-f0b1-4081-8dcb-028f3716f83a" />
+
 
 The model is centered on `FACT_BOOKING`. Its grain is one row per booking using
 the latest booking state. Each row points to one date, customer, service, and the
